@@ -425,7 +425,7 @@ HERO
                             bg-primary-700
                         "></span>
 
-                        Infrastruktur Identitas Cerdas Terintegrasi
+                        Kartu Pelajar & Digitalisasi Sekolah
 
                     </div>
 
@@ -444,17 +444,17 @@ HERO
                         tracking-tight
                     ">
 
-                        <span class="block">
-                            Satu Identitas,
+                        <span class="block text-[70%]">
+                            Kartu Pelajar untuk Sekolah,
                         </span>
 
                         <span
                             class="
-                            block
+                            block text-[70%]
                             mt-1
                             text-primary-500
                         ">
-                            Akses Tanpa Batas
+                            Mulai Rp9.500/Siswa
                         </span>
 
                     </h1>
@@ -474,9 +474,8 @@ HERO
                         mx-auto
                         lg:mx-0
                     ">
-                        Menghubungkan identitas individu melalui satu akses pintar
-                        guna menciptakan ekosistem digital yang efisien,
-                        transparan, dan berintegritas.
+                        Mulai dari kartu pelajar untuk kebutuhan identitas siswa, lalu dikembangkan sebagai solusi
+                        digital sesuai kebutuhan sekolah.
                     </p>
 
                     <!-- CTA -->
