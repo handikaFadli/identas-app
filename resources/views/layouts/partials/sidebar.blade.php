@@ -46,6 +46,15 @@ $isMasterData = request()->is('products*') || request()->is('servers*') || reque
             </a>
           </li>
 
+          <li>
+            <a href="{{ route('consultations.index') }}" class="flex items-center p-2 text-base text-gray-900 rounded-lg hover:bg-gray-100 group {{ request()->is('consultations*') ? 'bg-gray-100 dark:bg-gray-700' : '' }} dark:text-gray-200 dark:hover:bg-gray-700">
+                <svg class="w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 10h8m-8 4h5m7-2a8 8 0 01-8 8H5l-3 2 1.5-4A8 8 0 1119 12z" />
+                </svg>
+                <span class="ml-3" sidebar-toggle-item>Konsultasi</span>
+            </a>
+          </li>
+
         {{-- ─── LOGOUT ─── --}}
         <div class="pt-2 space-y-2">
           <li>
