@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\ConsultationRequestController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\TrialRequestController;
 use App\Http\Controllers\UserController;
@@ -17,6 +18,16 @@ Route::middleware('guest')->group(function () {
         TrialRequestController::class,
         'create'
     ])->name('trial.create');
+
+    Route::get('/konsultasi', [
+        ConsultationRequestController::class,
+        'create'
+    ])->name('consultation.create');
+
+    Route::post('/konsultasi', [
+        ConsultationRequestController::class,
+        'store'
+    ])->name('consultation.store');
 
     Route::post('/trial', [
         TrialRequestController::class,
@@ -37,6 +48,11 @@ Route::middleware('auth')->group(function () {
         '/dashboard',
         [TrialRequestController::class, 'index']
     )->name('dashboard');
+
+    Route::get(
+        '/consultations',
+        [ConsultationRequestController::class, 'index']
+    )->name('consultations.index');
     Route::post(
         '/trial-requests/{trialRequest}/approve',
         [TrialRequestController::class, 'approve']

@@ -96,6 +96,17 @@ NAVBAR
                         Solusi
                     </a>
 
+                    <a href="#paket"
+                        class="
+                        text-sm
+                        font-medium
+                        text-slate-700
+                        hover:text-primary-500
+                        transition
+                    ">
+                        Paket
+                    </a>
+
                     <a href="#tentang"
                         class="
                         text-sm
@@ -245,6 +256,22 @@ NAVBAR
                             transition
                         ">
                             Solusi
+                        </a>
+
+                        <a href="#paket"
+                            class="
+                            mobile-nav-link
+                            px-4
+                            py-3
+                            rounded-xl
+                            text-sm
+                            font-medium
+                            text-slate-700
+                            hover:text-primary-500
+                            hover:bg-blue-50
+                            transition
+                        ">
+                            Paket
                         </a>
 
                         <a href="#tentang"
@@ -1199,6 +1226,132 @@ BENEFITS
                 </div>
 
             </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+    PACKAGES
+    ========================= -->
+
+    <section id="paket" class="relative overflow-hidden bg-slate-50 py-24 lg:py-32">
+
+        <div class="absolute -right-24 top-20 h-72 w-72 rounded-full bg-blue-100/60 blur-3xl pointer-events-none"></div>
+        <div class="absolute -left-32 bottom-0 h-80 w-80 rounded-full bg-cyan-100/50 blur-3xl pointer-events-none"></div>
+
+        <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
+
+            <div class="mx-auto max-w-3xl text-center">
+                <p class="font-semibold text-primary-500">Paket IDENTAS</p>
+                <h2 class="mt-3 font-heading text-3xl font-bold leading-tight text-primary-900 lg:text-5xl">
+                    Pilih paket IDENTAS sesuai kebutuhan sekolah
+                </h2>
+                <p class="mt-5 leading-7 text-slate-500">
+                    Bandingkan fitur utama dalam satu tampilan. Setiap paket dilengkapi dukungan implementasi untuk membantu sekolah berkembang.
+                </p>
+            </div>
+
+            @php
+                $packages = [
+                    [
+                        'name' => 'Standar',
+                        'desc' => 'Fondasi presensi dan identitas digital sekolah.',
+                        'tone' => 'light',
+                        'tag' => null,
+                        'features' => [
+                            'Desain & konten kartu template',
+                            'Aplikasi IDENTAS',
+                            'QR Code + RFID',
+                            'Monitoring & rekap kehadiran',
+                            'Notifikasi orang tua',
+                            'Mesin presensi hingga 300 siswa*',
+                        ],
+                    ],
+                    [
+                        'name' => 'Smart',
+                        'desc' => 'Fitur lebih lengkap untuk sekolah yang ingin berkembang.',
+                        'tone' => 'featured',
+                        'tag' => 'Paling populer',
+                        'features' => [
+                            'Semua fitur Paket Standar',
+                            'Desain & konten kartu bebas',
+                            'Face Recognition & Presensi KBM',
+                            'E-Kantin, E-Perpus, dan E-SIPP',
+                            'AI Kepala Sekolah & Assistant AI',
+                            'Mesin presensi hingga 250 siswa*',
+                        ],
+                    ],
+                    [
+                        'name' => 'Premium',
+                        'desc' => 'Ekosistem digital lengkap untuk kebutuhan institusi.',
+                        'tone' => 'dark',
+                        'tag' => null,
+                        'features' => [
+                            'Semua fitur Paket Smart',
+                            'Lanyard + cover kartu',
+                            'AI Buat Soal & Administrasi Guru',
+                            'Website & PPDB Sekolah',
+                            'Mesin presensi hingga 200 siswa*',
+                        ],
+                    ],
+                ];
+            @endphp
+
+            <div class="mt-14 grid gap-5 lg:grid-cols-3 lg:items-start">
+                @foreach ($packages as $package)
+                    <article class="relative flex flex-col rounded-[1.75rem] border bg-white p-7 text-slate-700 shadow-sm transition duration-300 hover:-translate-y-1 {{ $package['tone'] === 'featured' ? 'border-amber-400 shadow-xl shadow-amber-100/80 lg:-mt-4' : 'border-slate-200' }}">
+                        @if ($package['tag'])
+                            <span class="absolute left-1/2 top-1 inline-flex -translate-x-1/2 -translate-y-1/2 items-center gap-1.5 whitespace-nowrap rounded-full bg-amber-400 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-primary-900 shadow-sm shadow-amber-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="m2 8l4 4l6-7l6 7l4-4l-2 11H4L2 8Z" />
+                                    <path d="M4 21h16" />
+                                </svg>
+                                {{ $package['tag'] }}
+                            </span>
+                        @endif
+
+                        <div>
+                            <p class="text-sm font-semibold text-primary-500">Paket IDENTAS</p>
+                            <h3 class="mt-3 font-heading text-3xl font-bold text-primary-900">Paket {{ $package['name'] }}</h3>
+                            <p class="mt-3 min-h-12 text-sm leading-6 text-slate-500">{{ $package['desc'] }}</p>
+                        </div>
+
+                        <div class="my-7 h-px bg-slate-100"></div>
+
+                        <div class="flex-1">
+                            <p class="text-xs font-bold uppercase tracking-[0.14em] text-slate-400">Fitur utama</p>
+                            <ul class="mt-4 space-y-3">
+                                @foreach ($package['features'] as $feature)
+                                    <li class="flex gap-3 text-sm leading-6 text-slate-600">
+                                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-amber-100 text-amber-600" aria-hidden="true">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="m5 12l5 5l10 -10" />
+                                            </svg>
+                                        </span>
+                                        <span>{{ $feature }}</span>
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </div>
+
+                        <div class="mt-7 border-t border-slate-100 pt-5">
+                            <p class="text-xs leading-5 text-slate-500">
+                                Termasuk langganan sistem, aplikasi gratis 1 tahun, layanan pelanggan, dan diklat / pelatihan.
+                            </p>
+                            <a href="{{ route('consultation.create', ['paket' => strtolower($package['name'])]) }}"
+                                class="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl px-5 py-3.5 text-sm font-semibold transition {{ $package['tone'] === 'featured' ? 'bg-amber-400 text-primary-900 hover:bg-amber-300' : 'border border-slate-200 text-primary-900 hover:border-amber-300 hover:bg-amber-50' }}">
+                                Konsultasikan paket <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+                @endforeach
+            </div>
+
+            <p class="mt-8 text-center text-sm text-slate-500">
+                *Kapasitas mesin presensi mengikuti paket. Hubungi tim IDENTAS untuk rekomendasi paket sesuai kebutuhan sekolah.
+            </p>
 
         </div>
 
