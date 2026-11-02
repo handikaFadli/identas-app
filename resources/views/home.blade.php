@@ -124,7 +124,7 @@ NAVBAR
                 <div class="hidden lg:flex items-center gap-3">
 
                     <!-- WHATSAPP -->
-                    <a href="https://wa.me/628XXXXXXXXXX?text={{ urlencode('Halo Admin IDENTAS, saya ingin mengetahui lebih lanjut tentang IDENTAS.') }}"
+                    <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin IDENTAS, saya ingin mengetahui lebih lanjut tentang IDENTAS.') }}"
                         target="_blank" rel="noopener noreferrer"
                         class="
                         inline-flex
@@ -2907,7 +2907,7 @@ FOOTER
 
                     <!-- WHATSAPP -->
                     <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin IDENTAS, saya ingin mengetahui lebih lanjut tentang IDENTAS
-                                                                                                                                                                                                                                                                                                                                                                        .') }}"
+                                                                                                                                                                                                                                                                                                                                                                                            .') }}"
                         target="_blank" rel="noopener noreferrer"
                         class="
                         flex
