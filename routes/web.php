@@ -14,6 +14,9 @@ Route::middleware('guest')->group(function () {
     Route::get('/', function () {
         return view('home');
     });
+    Route::get('/identas', function () {
+        return view('identas-redesign');
+    })->name('identas.landing');
     Route::get('/free-trial', [
         TrialRequestController::class,
         'create'

@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>KartuPintar by Edulink — Satu Identitas, Akses Tanpa Batas</title>
+    <title>IDENTAS by Edulink — Satu Identitas, Akses Tanpa Batas</title>
     <meta name="description"
-        content="KartuPintar adalah ekosistem identitas pintar untuk presensi, transaksi cashless, pemantauan aktivitas, dan integrasi data institusi.">
+        content="IDENTAS adalah ekosistem identitas pintar untuk presensi, transaksi cashless, pemantauan aktivitas, dan integrasi data institusi.">
 
-    <link rel="icon" type="image/x-icon" href="{{ asset('logo/logo-kartupintar-white.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('logo/logo-identas-white.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
@@ -68,7 +68,7 @@ NAVBAR
 
                 <!-- LOGO -->
                 <a href="/" class="flex items-center">
-                    <img src="{{ asset('logo/logo-kartupintar.png') }}" alt="KartuPintar" class="h-20 sm:h-35 w-auto">
+                    <img src="{{ asset('logo/logo-2.png') }}" alt="IDENTAS" class="h-10 sm:h-12 w-auto">
                 </a>
 
                 <!-- DESKTOP MENU -->
@@ -124,7 +124,7 @@ NAVBAR
                 <div class="hidden lg:flex items-center gap-3">
 
                     <!-- WHATSAPP -->
-                    <a href="https://wa.me/628XXXXXXXXXX?text={{ urlencode('Halo Admin KartuPintar, saya ingin mengetahui lebih lanjut tentang KartuPintar.') }}"
+                    <a href="https://wa.me/628XXXXXXXXXX?text={{ urlencode('Halo Admin IDENTAS, saya ingin mengetahui lebih lanjut tentang IDENTAS.') }}"
                         target="_blank" rel="noopener noreferrer"
                         class="
                         inline-flex
@@ -312,7 +312,7 @@ NAVBAR
                             hover:bg-primary-800
                             transition
                         ">
-                            Coba KartuPintar Gratis
+                            Coba IDENTAS Gratis
 
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -321,7 +321,7 @@ NAVBAR
                         </a>
 
                         <!-- WHATSAPP -->
-                        <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin KartuPintar, saya ingin mengetahui lebih lanjut tentang KartuPintar.') }}"
+                        <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin IDENTAS, saya ingin mengetahui lebih lanjut tentang IDENTAS.') }}"
                             target="_blank" rel="noopener noreferrer"
                             class="
                             mobile-nav-link
@@ -472,16 +472,16 @@ HERO
                     ">
 
                         <span class="block text-[70%]">
-                            Kartu Pelajar untuk Sekolah,
+                            Kartu Pelajar untuk Sekolah
                         </span>
 
                         <span
                             class="
-                            block text-[70%]
+                            block text-[40%]
                             mt-1
                             text-primary-500
                         ">
-                            Mulai Rp9.500/Siswa
+                            Sekolah Makin Maju, Aktivitas Makin Terpadu
                         </span>
 
                     </h1>
@@ -535,7 +535,7 @@ HERO
                             shadow-xl
                             shadow-blue-500/20
                         ">
-                            Coba KartuPintar Gratis
+                            Coba IDENTAS Gratis
 
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -544,7 +544,7 @@ HERO
                         </a>
 
                         <!-- WHATSAPP -->
-                        <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin KartuPintar, saya ingin mengetahui lebih lanjut tentang KartuPintar.') }}"
+                        <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin IDENTAS, saya ingin mengetahui lebih lanjut tentang IDENTAS.') }}"
                             target="_blank" rel="noopener noreferrer"
                             class="
                             inline-flex
@@ -776,7 +776,7 @@ HERO
                     </div>
 
                     <img src="{{ asset('image/header-2.png') }}"
-                        alt="Ekosistem KartuPintar - Smart Card, Mesin Presensi, dan Aplikasi Mobile"
+                        alt="Ekosistem IDENTAS - Smart Card, Mesin Presensi, dan Aplikasi Mobile"
                         class="
                         relative
                         z-10
@@ -854,7 +854,7 @@ TRUSTED BY
                         transition
                         duration-300
                     ">
-                        <img src="{{ asset('image/client' . $i . '.png') }}" alt="Client KartuPintar"
+                        <img src="{{ asset('image/client' . $i . '.png') }}" alt="Client IDENTAS"
                             class="max-h-12 max-w-[130px] object-contain">
                     </div>
                 @endfor
@@ -877,7 +877,7 @@ WHY IDENTAS
             <div class="text-center max-w-3xl mx-auto">
 
                 <p class="text-primary-500 font-semibold mb-3">
-                    Mengapa KartuPintar?
+                    Mengapa IDENTAS?
                 </p>
 
                 <h2
@@ -999,7 +999,7 @@ WHY IDENTAS
                     <p class="mt-4 text-sm leading-6 text-slate-500">
                         Perlindungan data dirancang untuk mendukung
                         keamanan informasi presensi, aktivitas,
-                        dan transaksi dalam ekosistem KartuPintar.
+                        dan transaksi dalam ekosistem IDENTAS.
                     </p>
 
                 </div>
@@ -1132,8 +1132,7 @@ BENEFITS
                         p-5
                         shadow-soft
                     ">
-                        <img src="{{ asset('image/sec.png') }}" alt="Smart Card KartuPintar"
-                            class="rounded-2xl w-full">
+                        <img src="{{ asset('image/sec.png') }}" alt="Smart Card IDENTAS" class="rounded-2xl w-full">
                     </div>
 
                 </div>
@@ -1141,7 +1140,7 @@ BENEFITS
                 <div>
 
                     <p class="text-primary-500 font-semibold">
-                        Satu Sentuhan KartuPintar
+                        Satu Sentuhan IDENTAS
                     </p>
 
                     <h2
@@ -1238,8 +1237,10 @@ BENEFITS
 
     <section id="paket" class="relative overflow-hidden bg-slate-50 py-24 lg:py-32">
 
-        <div class="absolute -right-24 top-20 h-72 w-72 rounded-full bg-blue-100/60 blur-3xl pointer-events-none"></div>
-        <div class="absolute -left-32 bottom-0 h-80 w-80 rounded-full bg-cyan-100/50 blur-3xl pointer-events-none"></div>
+        <div class="absolute -right-24 top-20 h-72 w-72 rounded-full bg-blue-100/60 blur-3xl pointer-events-none">
+        </div>
+        <div class="absolute -left-32 bottom-0 h-80 w-80 rounded-full bg-cyan-100/50 blur-3xl pointer-events-none">
+        </div>
 
         <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
 
@@ -1249,7 +1250,8 @@ BENEFITS
                     Pilih paket IDENTAS sesuai kebutuhan sekolah
                 </h2>
                 <p class="mt-5 leading-7 text-slate-500">
-                    Bandingkan fitur utama dalam satu tampilan. Setiap paket dilengkapi dukungan implementasi untuk membantu sekolah berkembang.
+                    Bandingkan fitur utama dalam satu tampilan. Setiap paket dilengkapi dukungan implementasi untuk
+                    membantu sekolah berkembang.
                 </p>
             </div>
 
@@ -1301,10 +1303,14 @@ BENEFITS
 
             <div class="mt-14 grid gap-5 lg:grid-cols-3 lg:items-start">
                 @foreach ($packages as $package)
-                    <article class="relative flex flex-col rounded-[1.75rem] border bg-white p-7 text-slate-700 shadow-sm transition duration-300 hover:-translate-y-1 {{ $package['tone'] === 'featured' ? 'border-amber-400 shadow-xl shadow-amber-100/80 lg:-mt-4' : 'border-slate-200' }}">
+                    <article
+                        class="relative flex flex-col rounded-[1.75rem] border bg-white p-7 text-slate-700 shadow-sm transition duration-300 hover:-translate-y-1 {{ $package['tone'] === 'featured' ? 'border-amber-400 shadow-xl shadow-amber-100/80 lg:-mt-4' : 'border-slate-200' }}">
                         @if ($package['tag'])
-                            <span class="absolute left-1/2 top-1 inline-flex -translate-x-1/2 -translate-y-1/2 items-center gap-1.5 whitespace-nowrap rounded-full bg-amber-400 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-primary-900 shadow-sm shadow-amber-200">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <span
+                                class="absolute left-1/2 top-1 inline-flex -translate-x-1/2 -translate-y-1/2 items-center gap-1.5 whitespace-nowrap rounded-full bg-amber-400 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-primary-900 shadow-sm shadow-amber-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                                     <path d="m2 8l4 4l6-7l6 7l4-4l-2 11H4L2 8Z" />
                                     <path d="M4 21h16" />
                                 </svg>
@@ -1314,7 +1320,8 @@ BENEFITS
 
                         <div>
                             <p class="text-sm font-semibold text-primary-500">Paket IDENTAS</p>
-                            <h3 class="mt-3 font-heading text-3xl font-bold text-primary-900">Paket {{ $package['name'] }}</h3>
+                            <h3 class="mt-3 font-heading text-3xl font-bold text-primary-900">Paket
+                                {{ $package['name'] }}</h3>
                             <p class="mt-3 min-h-12 text-sm leading-6 text-slate-500">{{ $package['desc'] }}</p>
                         </div>
 
@@ -1325,8 +1332,12 @@ BENEFITS
                             <ul class="mt-4 space-y-3">
                                 @foreach ($package['features'] as $feature)
                                     <li class="flex gap-3 text-sm leading-6 text-slate-600">
-                                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-amber-100 text-amber-600" aria-hidden="true">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <span
+                                            class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-amber-100 text-amber-600"
+                                            aria-hidden="true">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                                 <path d="m5 12l5 5l10 -10" />
                                             </svg>
                                         </span>
@@ -1338,7 +1349,8 @@ BENEFITS
 
                         <div class="mt-7 border-t border-slate-100 pt-5">
                             <p class="text-xs leading-5 text-slate-500">
-                                Termasuk langganan sistem, aplikasi gratis 1 tahun, layanan pelanggan, dan diklat / pelatihan.
+                                Termasuk langganan sistem, aplikasi gratis 1 tahun, layanan pelanggan, dan diklat /
+                                pelatihan.
                             </p>
                             <a href="{{ route('consultation.create', ['paket' => strtolower($package['name'])]) }}"
                                 class="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl px-5 py-3.5 text-sm font-semibold transition {{ $package['tone'] === 'featured' ? 'bg-amber-400 text-primary-900 hover:bg-amber-300' : 'border border-slate-200 text-primary-900 hover:border-amber-300 hover:bg-amber-50' }}">
@@ -1350,7 +1362,8 @@ BENEFITS
             </div>
 
             <p class="mt-8 text-center text-sm text-slate-500">
-                *Kapasitas mesin presensi mengikuti paket. Hubungi tim IDENTAS untuk rekomendasi paket sesuai kebutuhan sekolah.
+                *Kapasitas mesin presensi mengikuti paket. Hubungi tim IDENTAS untuk rekomendasi paket sesuai kebutuhan
+                sekolah.
             </p>
 
         </div>
@@ -1369,7 +1382,7 @@ FEATURES
             <div class="text-center max-w-3xl mx-auto">
 
                 <p class="text-primary-500 font-semibold">
-                    Fitur KartuPintar
+                    Fitur IDENTAS
                 </p>
 
                 <h2
@@ -1381,7 +1394,7 @@ FEATURES
                     lg:text-4xl
                     text-primary-900
                 ">
-                    Kenali Fitur Pintar KartuPintar
+                    Kenali Fitur Pintar IDENTAS
                 </h2>
 
                 <p class="mt-5 text-slate-500">
@@ -1473,8 +1486,7 @@ FEATURES
                     rounded-[2rem]
                     p-8
                 ">
-                    <img src="{{ asset('image/presensi.png') }}" alt="E-Presensi KartuPintar"
-                        class="w-full rounded-xl">
+                    <img src="{{ asset('image/presensi.png') }}" alt="E-Presensi IDENTAS" class="w-full rounded-xl">
                 </div>
 
             </div>
@@ -1498,7 +1510,7 @@ FEATURES
                     order-2
                 ">
 
-                    <img src="{{ asset('image/kantin.png') }}" alt="E-Kantin KartuPintar" class="w-full rounded-xl">
+                    <img src="{{ asset('image/kantin.png') }}" alt="E-Kantin IDENTAS" class="w-full rounded-xl">
 
                 </div>
 
@@ -1536,7 +1548,7 @@ FEATURES
                         text-slate-500
                         leading-7
                     ">
-                        Gunakan satu kartu KartuPintar untuk melakukan
+                        Gunakan satu kartu IDENTAS untuk melakukan
                         pembayaran di kantin sekolah maupun pantry kantor
                         melalui sistem saldo digital.
                     </p>
@@ -1613,7 +1625,7 @@ FEATURES
                         text-slate-500
                         leading-7
                     ">
-                        KartuPintar membantu sekolah mencatat rutinitas
+                        IDENTAS membantu sekolah mencatat rutinitas
                         ibadah dan aktivitas karakter siswa agar dapat
                         dievaluasi dengan lebih terarah.
                     </p>
@@ -1651,7 +1663,7 @@ FEATURES
                     p-8
                 ">
 
-                    <img src="{{ asset('image/ibadah.png') }}" alt="Pemantauan Ibadah KartuPintar"
+                    <img src="{{ asset('image/ibadah.png') }}" alt="Pemantauan Ibadah IDENTAS"
                         class="w-full rounded-xl">
 
                 </div>
@@ -1778,7 +1790,7 @@ DASHBOARD
                     p-4
                     shadow-2xl
                 ">
-                    <img src="{{ asset('image/dashboard.png') }}" alt="Dashboard KartuPintar"
+                    <img src="{{ asset('image/dashboard.png') }}" alt="Dashboard IDENTAS"
                         class="w-full rounded-2xl">
                 </div>
 
@@ -1812,7 +1824,7 @@ SEGMENTS
                     lg:text-4xl
                     text-primary-900
                 ">
-                    KartuPintar untuk Pendidikan dan Korporasi
+                    IDENTAS untuk Pendidikan dan Korporasi
                 </h2>
 
             </div>
@@ -2092,7 +2104,7 @@ TESTIMONIALS
                         max-w-2xl
                     ">
                         Dengarkan pengalaman institusi dalam
-                        memanfaatkan teknologi KartuPintar untuk mendukung
+                        memanfaatkan teknologi IDENTAS untuk mendukung
                         presensi, transaksi, dan pengelolaan aktivitas.
                     </p>
 
@@ -2187,7 +2199,7 @@ TESTIMONIALS
                         text-slate-600
                         leading-7
                     ">
-                        KartuPintar membantu proses presensi menjadi
+                        membantu proses presensi menjadi
                         lebih terstruktur dan memudahkan kami
                         dalam melihat informasi kehadiran secara cepat.
                     </p>
@@ -2491,7 +2503,7 @@ TESTIMONIALS
                     hover:text-blue-300
                     transition
                 ">
-                    Rasakan KartuPintar Sekarang
+                    Rasakan Sekarang
 
                     <span>→</span>
                 </a>
@@ -2503,9 +2515,7 @@ TESTIMONIALS
     </section>
 
 
-    <!-- =========================
-ABOUT
-========================= -->
+    <!-- =========================ABOUT========================= -->
 
     <section id="tentang" class="py-24 bg-gray-100">
 
@@ -2548,8 +2558,7 @@ ABOUT
             ">
 
                 <p>
-                    <strong class="text-primary-900">
-                        KartuPintar lahir dari semangat inovasi
+                    <strong class="text-primary-900">lahir dari semangat inovasi
                         PT. Alvarel Digdaya Nusantara
                     </strong>,
                     sebuah perusahaan teknologi yang berfokus
@@ -2558,14 +2567,13 @@ ABOUT
 
                 <p>
                     Berbekal pengalaman dalam pengembangan solusi
-                    digital untuk institusi pendidikan, KartuPintar
-                    dikembangkan untuk menjawab kebutuhan
+                    digital untuk institusi pendidikan, dikembangkan untuk menjawab kebutuhan
                     pengelolaan identitas, aktivitas, dan data
                     yang juga relevan bagi organisasi dan korporasi.
                 </p>
 
                 <p>
-                    KartuPintar menyatukan teknologi identitas pintar,
+                    menyatukan teknologi identitas pintar,
                     presensi, otomatisasi data, transaksi,
                     dan pemantauan melalui satu ekosistem
                     terintegrasi.
@@ -2668,7 +2676,8 @@ FREE TRIAL CTA
                             leading-tight
                         ">
                             Rasakan Langsung
-                            Kemudahan KartuPintar
+                            Kemudahan
+
                         </h2>
 
                         <p
@@ -2678,7 +2687,7 @@ FREE TRIAL CTA
                             leading-7
                             max-w-2xl
                         ">
-                            Ajukan uji coba KartuPintar untuk institusi Anda.
+                            Ajukan uji coba untuk institusi Anda.
                             Tim kami akan melakukan peninjauan dan mengirimkan
                             akun uji coba setelah pengajuan disetujui.
                         </p>
@@ -2696,7 +2705,7 @@ FREE TRIAL CTA
                             <span>✓ Trial 14 Hari</span>
                             <span>✓ Tanpa Biaya</span>
                             <span>✓ Akun Institusi</span>
-                            <span>✓ Dibantu Tim KartuPintar</span>
+                            <span>✓ Dibantu Tim IDENTAS</span>
                         </div>
 
                     </div>
@@ -2727,11 +2736,11 @@ FREE TRIAL CTA
                             shadow-xl
                             shadow-blue-900/20
                         ">
-                            Coba KartuPintar Gratis
+                            Coba IDENTAS Gratis
                             <span>→</span>
                         </a>
 
-                        <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin KartuPintar, saya ingin berkonsultasi mengenai KartuPintar.') }}"
+                        <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin IDENTAS, saya ingin berkonsultasi mengenai IDENTAS.') }}"
                             target="_blank" rel="noopener noreferrer"
                             class="
                             inline-flex
@@ -2792,7 +2801,7 @@ FOOTER
             <!-- BRAND -->
             <div>
 
-                <img src="{{ asset('logo/logo-kartupintar-white.png') }}" alt="KartuPintar" class="h-20">
+                <img src="{{ asset('logo/logo-2.png') }}" alt="IDENTAS" class="h-10 w-auto brightness-0 invert">
 
                 <p
                     class="
@@ -2833,7 +2842,7 @@ FOOTER
                 ">
 
                     <a href="#keunggulan" class="block hover:text-white transition">
-                        Mengapa KartuPintar
+                        Mengapa IDENTAS
                     </a>
 
                     <a href="#fitur" class="block hover:text-white transition">
@@ -2897,7 +2906,8 @@ FOOTER
                 <div class="mt-5 space-y-4">
 
                     <!-- WHATSAPP -->
-                    <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin KartuPintar, saya ingin mengetahui lebih lanjut tentang KartuPintar.') }}"
+                    <a href="https://wa.me/6285117377855?text={{ urlencode('Halo Admin IDENTAS, saya ingin mengetahui lebih lanjut tentang IDENTAS
+                                                                                                                                                                                                                                                                                                                                                                        .') }}"
                         target="_blank" rel="noopener noreferrer"
                         class="
                         flex
@@ -3070,7 +3080,7 @@ FOOTER
         ">
 
             <p>
-                © 2026 KartuPintar — PT. Alvarel Digdaya Nusantara.
+                © 2026 IDENTAS — PT. Alvarel Digdaya Nusantara.
             </p>
 
             <p>
